@@ -4,4 +4,5 @@ const Person = {
     city:"Motihari"
 };
 
-document.getElementById("demo").innerHTML = Person;
+document.getElementById("demo").innerHTML = 
+Person.name + "," + Person.age + "," + Person.city;
